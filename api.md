@@ -1,6 +1,5 @@
 ### 注册
-#### 接口地址
-/user/register
+* 接口地址:/user/register
 
 ### 登录
 /user/login
