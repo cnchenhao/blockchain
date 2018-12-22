@@ -44,19 +44,28 @@
 ~~~
 
 ### 3. 市场列表
-* 接口地址：/user/login
+* 接口地址：/idol/getMarketIdols
 * 请求方式：get
 * 请求参数：
 ~~~
 ?page=1&pageSize=2&category=forsale&hairColors=blonde,brown,black,blue&eyeColors=brown,black&hairStyles=long hair,short hair&attributes=hasname,hasbio,cooldownready,dark skin,blush,smile,open mouth,hat,ribbon,glasses&filters=iteration:1~2,cooldown:ur|ssr|sr|r|n,price:1~2&sort=-id
 ~~~
 * 返回值：
-
+~~~
 {"code":0,"message":"","data":[{"TokenId":1,"NickName":"1","UserId":5,"Genes":"0","BirthTime":1,"Bio":"1","Generation":1,"Pic":"/idol/000c1668c6b2.jpg","Cooldown":0,"MatronId":0,"SireId":0},{"TokenId":2,"NickName":"1","UserId":1,"Genes":"0","BirthTime":0,"Bio":"1","Generation":2,"Pic":"/idol/00a1f298bbe0.jpg","Cooldown":0,"MatronId":0,"SireId":0}]}
-
+~~~
 
 ### 4. 我的列表
-
+* 接口地址：/idol/getMyIdols
+* 请求方式：get
+* 请求参数：
+~~~
+?page=1&pageSize=2&category=forsale&hairColors=blonde,brown,black,blue&eyeColors=brown,black&hairStyles=long hair,short hair&attributes=hasname,hasbio,cooldownready,dark skin,blush,smile,open mouth,hat,ribbon,glasses&filters=iteration:1~2,cooldown:ur|ssr|sr|r|n,price:1~2&sort=-id
+~~~
+* 返回值：
+~~~
+{"code":0,"message":"","data":[{"TokenId":1,"NickName":"1","UserId":5,"Genes":"0","BirthTime":1,"Bio":"1","Generation":1,"Pic":"/idol/000c1668c6b2.jpg","Cooldown":0,"MatronId":0,"SireId":0},{"TokenId":2,"NickName":"1","UserId":1,"Genes":"0","BirthTime":0,"Bio":"1","Generation":2,"Pic":"/idol/00a1f298bbe0.jpg","Cooldown":0,"MatronId":0,"SireId":0}]}
+~~~
 
 ### 5. 获取Idol详情
 
