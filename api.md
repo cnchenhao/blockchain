@@ -8,6 +8,13 @@
   "name":"chenhao"
 }
 ~~~
+* 返回值：
+~~~
+{
+	"code": 0,
+	"message": "成功"
+}
+~~~
 
 ### 2. 登录
 /user/login
