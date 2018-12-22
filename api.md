@@ -1,20 +1,28 @@
-### 注册
-* 接口地址:/user/register
+### 1. 注册
+* 接口地址：/user/register
+* 请求方式：POST
+* 请求参数：
+~~~
+{
+  "address":"TVjmtiAVdbox9LYtZ7eu8Bq7mHJFZCZ3dg",
+  "name":"chenhao"
+}
+~~~
 
-### 登录
+### 2. 登录
 /user/login
 
-### 市场列表
+### 3. 市场列表
 
 
-### 我的列表
+### 4. 我的列表
 
 
-### 获取Idol详情
+### 5. 获取Idol详情
 
 
-### 点赞
+### 6. 点赞
 
 
-### 取消点赞
+### 7. 取消点赞
 
