@@ -32,7 +32,12 @@
 {
   "code": 0,
   "message": "成功",
-  "data": {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjUsIkFkZHJlc3MiOiJhZHNmZHNmZHNmZHMxMWRmc2RzZmEiLCJpYXQiOjE1NDU0NTAwNTUsImV4cCI6MTU0NTUzNjQ1NX0.PwUqLko45qLQKIFCy6oC8CCODK1mug_xP4PKF8GjtUI","expires_in":1545536455,"token_type":"Bearer"}
+  "data": 
+  {
+    "access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjUsIkFkZHJlc3MiOiJhZHNmZHNmZHNmZHMxMWRmc2RzZmEiLCJpYXQiOjE1NDU0NTAwNTUsImV4cCI6MTU0NTUzNjQ1NX0.PwUqLko45qLQKIFCy6oC8CCODK1mug_xP4PKF8GjtUI",
+    "expires_in":1545536455,
+    "token_type":"Bearer"
+  }
 }
 ~~~
 * 失败返回值：
