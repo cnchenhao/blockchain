@@ -2,7 +2,7 @@
 * 接口地址：/user/register
 * 请求方式：POST
 * 请求参数：
-~~~
+~~~json
 {
   "address":"TVjmtiAVdbox9LYtZ7eu8Bq7mHJFZCZ3dg",
   "name":"chenhao",
@@ -10,7 +10,7 @@
 }
 ~~~
 * 返回值：
-~~~
+~~~json
 {
   "code": 0,
   "message": "成功"
@@ -21,14 +21,14 @@
 * 接口地址：/user/login
 * 请求方式：POST
 * 请求参数：
-~~~
+~~~json
 {
   "address":"TVjmtiAVdbox9LYtZ7eu8Bq7mHJFZCZ3dg",
   "sign":"ab56b4d92b40713acc5af89985d4b786"
 }
 ~~~
 * 成功返回值：
-~~~
+~~~json
 {
   "code": 0,
   "message": "成功",
@@ -36,7 +36,7 @@
 }
 ~~~
 * 失败返回值：
-~~~
+~~~json
 {
   "code": 10001,
   "message": "未注册"
@@ -90,11 +90,11 @@
 * 接口地址：/idol/getMyIdols
 * 请求方式：get
 * 请求参数：
-~~~
+~~~json
 ?page=1&pageSize=2&category=forsale&hairColors=blonde,brown,black,blue&eyeColors=brown,black&hairStyles=long hair,short hair&attributes=hasname,hasbio,cooldownready,dark skin,blush,smile,open mouth,hat,ribbon,glasses&filters=iteration:1~2,cooldown:ur|ssr|sr|r|n,price:1~2&sort=-id
 ~~~
 * 返回值：
-~~~
+~~~json
 {"code":0,
 "message":"",
 "data":
