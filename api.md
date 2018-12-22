@@ -142,10 +142,32 @@
 ?tokenId=1
 ~~~
 * 请求头：
+如果有cookie请带上，这是用户的登录信息，服务端根据用户信息获取是否点过赞。
 ~~~
 Cookie:csrfToken=IHoPCGBkcxULU7tpQOXl2Zyr; locale=en-us; tron_Idol_1544608605980_4384=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjUsIkFkZHJlc3MiOiJhZHNmZHNmZHNmZHMxMWRmc2RzZmEiLCJpYXQiOjE1NDUyODY2NzEsImV4cCI6MTU0NTM3MzA3MX0.cPKzSnTw96zoQFAldR1Vkma0HLG2nGgdgdpxjFgo1lY; undefined_1544608605980_4384.sig=Pqqz-SZgb5Fzm3jA7BvbZsRu016fWhPHtDhlvXW7SnI
 ~~~
-
+* 返回值：
+~~~json
+{
+	"code": 0,
+	"message": "成功",
+	"data": {
+		"TokenId": 1,
+		"NickName": "1",
+		"UserId": 5,
+		"Genes": "0",
+		"BirthTime": 1,
+		"Bio": "1",
+		"Generation": 1,
+		"Pic": "/idol/000c1668c6b2.jpg",
+		"Cooldown": 0,
+		"MatronId": 0,
+		"SireId": 0,
+		"LikeId": 0,
+		"IsLike": 0
+	}
+}
+~~~
 
 ### 6. 点赞
 
