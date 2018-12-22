@@ -52,7 +52,13 @@
 ~~~
 * 返回值：
 ~~~
-{"code":0,"message":"","data":[{"TokenId":1,"NickName":"1","UserId":5,"Genes":"0","BirthTime":1,"Bio":"1","Generation":1,"Pic":"/idol/000c1668c6b2.jpg","Cooldown":0,"MatronId":0,"SireId":0},{"TokenId":2,"NickName":"1","UserId":1,"Genes":"0","BirthTime":0,"Bio":"1","Generation":2,"Pic":"/idol/00a1f298bbe0.jpg","Cooldown":0,"MatronId":0,"SireId":0}]}
+{"code":0,
+"message":"",
+"data":
+[
+  {"TokenId":1,"NickName":"1","UserId":5,"Genes":"0","BirthTime":1,"Bio":"1","Generation":1,"Pic":"/idol/000c1668c6b2.jpg","Cooldown":0,"MatronId":0,"SireId":0},  {"TokenId":2,"NickName":"1","UserId":1,"Genes":"0","BirthTime":0,"Bio":"1","Generation":2,"Pic":"/idol/00a1f298bbe0.jpg","Cooldown":0,"MatronId":0,"SireId":0}
+]
+}
 ~~~
 
 ### 4. 我的列表
